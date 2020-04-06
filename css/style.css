@@ -1,5 +1,42 @@
-.firstblock{
+.block-1{
     width: 100px;
     height: 100px;
     background-color: rgba(31, 32, 65, 1);
+    border-radius: 6px;
+}
+.block-2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(31, 32, 65, 0.75);
+    border-radius: 6px;
+}
+.block-3{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(31, 32, 65, 0.5);
+    border-radius: 6px;
+}
+.block-4{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(31, 32, 65, 0.25);
+    border-radius: 6px;
+}
+.block-5{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(31, 32, 65, 0.05);
+    border-radius: 6px;
+}
+.block-6{
+    width: 100px;
+    height: 100px;
+    background-color: #BC9CFF;
+    border-radius: 6px;
+}
+.block-7{
+    width: 100px;
+    height: 100px;
+    background-color: #6FCF97;
+    border-radius: 6px;
 }
