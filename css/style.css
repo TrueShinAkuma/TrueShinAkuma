@@ -1,5 +1,6 @@
 .container{
     justify-content: space-between;
+    display: inline-flex;
 }
 .block-1{
     width: 100px;
