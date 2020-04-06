@@ -1,3 +1,6 @@
+.container{
+    justify-content: space-between;
+}
 .block-1{
     width: 100px;
     height: 100px;
