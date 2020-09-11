@@ -4,11 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BisLite | Homepage</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>Jetro | Homepage</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
@@ -17,422 +15,330 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <div class="header__logo">
-          <a href="#">
-            <span>Bis</span>Lite
-          </a>
-        </div>
-        <nav class="header__menu">
-          <div class="header__menu-btn">
-            <div class="header__menu-row"></div>
-            <div class="header__menu-row"></div>
-            <div class="header__menu-row"></div>
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="images/logo.png" alt="logo">
+        </a>
+        <nav class="header__nav">
+          <div class="header__nav-btn">
+
+            <div class="header__nav-row"></div>
+            <div class="header__nav-row"></div>
+            <div class="header__nav-row"></div>
           </div>
-          <ul>
-            <li>
-              <a href="#">
-                Home
-              </a>
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link menu__link--active" href="#"> Home </a>
             </li>
-            <li>
-              <a href="#">
-                About Us
-              </a>
+            <li class="menu__item">
+              <a class="menu__link" href="#"> About Us </a>
             </li>
-            <li class="header__drop-down drop-down">
-              <a class="drop-down__link" href="#">
-                Services
-              </a>
-              <ul class="drop-down__list">
-                <li><a href="#">Web Design</a></li>
-                <li><a href="#">Wordpress Design</a></li>
-                <li><a href="#">Mobile App Development</a></li>
-                <li><a href="#">Internet Marketing</a></li>
-                <li><a href="#">Social Media Management</a></li>
-              </ul>
+            <li class="menu__item">
+              <a class="menu__link" href="#"> Blog </a>
             </li>
-            <li class="header__drop-down drop-down">
-              <a class="drop-down__link" href="#">
-                Portfolio
-              </a>
-              <ul class="drop-down__list">
-                <li><a href="#">Web Design</a></li>
-                <li><a href="#">Wordpress Design</a></li>
-                <li><a href="#">Mobile App Development</a></li>
-                <li><a href="#">Internet Marketing</a></li>
-                <li><a href="#">Social Media Management</a></li>
-              </ul>
+            <li class="menu__item">
+              <a class="menu__link" href="#"> Portfolio </a>
             </li>
-            <li class="header__link-blog">
-              <a href="#">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Contact Us
-              </a>
+            <li class="menu__item">
+              <a class="menu__link" href="#"> Contact Us </a>
             </li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
-  <section class="slider">
-    <div class="container">
-      <div class="slider__inner">
 
-        <div class="slider__item">
-          <div class="slider__item-title">
-            We design clean, crisp & memorable icons
-          </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-title">
-            We design clean, crisp & memorable icons
-          </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-title">
-            We design clean, crisp & memorable icons
-          </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-title">
-            We design clean, crisp & memorable icons
-          </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-title">
-            We design clean, crisp & memorable icons
-          </div>
-        </div>
+  <main class="main">
 
-      </div>
-    </div>
-  </section>
-
-  <section class="items">
-    <div class="container">
-      <div class="items__inner">
-        <div class="item">
-          <div class="item__title">
-            <div class="item__icons">
-              <img src="images/icons/pencil.svg" alt="">
+    <section class="slider sidewall">
+      <div class="container">
+        <div class="slider__inner">
+          <div class="slider__item" style="background-image: url(images/slide-one.jpg)">
+            <div class="slider__content">
+              <div class="slider__title">Slide One</div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
+                vel. Urbanitas adolescens vim te, per at tritani aperiri.
+                Adhuc invenire convenire his ea.
+              </div>
             </div>
-            Clean Theme
           </div>
-          <div class="item__text">
-            Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie. Duis porta
-            gravida augue sed viverra. Quisque at nulla leo, non aliquet mi.
+          <div class="slider__item" style="background-image: url(images/slide-two.jpg)">
+            <div class="slider__content">
+              <div class="slider__title">Slide Two</div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
+                vel. Urbanitas adolescens vim te, per at tritani aperiri.
+                Adhuc invenire convenire his ea.
+              </div>
+            </div>
           </div>
-          <a class="item__link" href="#">Read More</a>
+          <div class="slider__item" style="background-image: url(images/slide-three.jpg)">
+            <div class="slider__content">
+              <div class="slider__title">Slide Three</div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
+                vel. Urbanitas adolescens vim te, per at tritani aperiri.
+                Adhuc invenire convenire his ea.
+              </div>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url(images/slide-four.jpg)">
+            <div class="slider__content">
+              <div class="slider__title">Slide Four</div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
+                vel. Urbanitas adolescens vim te, per at tritani aperiri.
+                Adhuc invenire convenire his ea.
+              </div>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url(images/slide-five.jpg)">
+            <div class="slider__content">
+              <div class="slider__title">Slide Five</div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
+                vel. Urbanitas adolescens vim te, per at tritani aperiri.
+                Adhuc invenire convenire his ea.
+              </div>
+            </div>
+          </div>
+          <div class="slider__item" style="background-image: url(images/slide-six.jpg)">
+            <div class="slider__content">
+              <div class="slider__title">Slide Six</div>
+              <div class="slider__text">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
+                vel. Urbanitas adolescens vim te, per at tritani aperiri.
+                Adhuc invenire convenire his ea.
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="item">
-          <div class="item__title">
-            <div class="item__icons">
-              <img src="images/icons/fullscreen.svg" alt="">
-            </div>
-            Responsive Design
-          </div>
-          <div class="item__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et
-            tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros.
-          </div>
-          <a class="item__link" href="#">Read More</a>
-        </div>
-        <div class="item">
-          <div class="item__title">
-            <div class="item__icons">
-              <img src="images/icons/view-list.svg" alt="">
-            </div>
-            Fully layerd PSD
-          </div>
-          <div class="item__text">
-            Phasellus lobortis metus non augue sodales volutpat. Vestibulum sit amet nibh eros, hendrerit
-            venenatis est. In vitae nulla nec purus cursus pretium sed id magna.
-          </div>
-          <a class="item__link" href="#">Read More</a>
-        </div>
-        <div class="item">
-          <div class="item__title">
-            <div class="item__icons">
-              <img class="plane-icons" src="images/icons/plane.svg" alt="">
-            </div>
-            Ready for coding
-          </div>
-          <div class="item__text">
-            Vivamus convallis feugiat mauris sed posuere. Nam rutrum, quam quis euismod commodo, elit est
-            porta quam, non placerat eros neque porta ante. Fusce quis odio urna.
-          </div>
-          <a class="item__link" href="#">Read More</a>
+        <div class="slider__nav">
+          <div class="slider__nav-item" style="background-image: url(images/slide-one.jpg)"></div>
+          <div class="slider__nav-item" style="background-image: url(images/slide-two.jpg)"></div>
+          <div class="slider__nav-item" style="background-image: url(images/slide-three.jpg)"></div>
+          <div class="slider__nav-item" style="background-image: url(images/slide-four.jpg)"></div>
+          <div class="slider__nav-item" style="background-image: url(images/slide-five.jpg)"></div>
+          <div class="slider__nav-item" style="background-image: url(images/slide-six.jpg)"></div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="works">
-    <div class="container">
-      <div class="works__title">
-        latest works
-      </div>
-      <div class="works__inner">
+    </section>
 
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-1.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
+    <section class="features">
+      <div class="container">
+        <div class="features__inner">
+          <div class="features__item">
+            <div class="features__title features__title--gear">
+              Check out my latest
+              portfolio items
             </div>
+            <div class="features__text">
+              Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed
+              magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras
+              varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+            </div>
+            <a class="features__link" href="#">
+              More
+            </a>
           </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-2.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
+          <div class="features__item">
+            <div class="features__title features__title--check">
+              Offer Top Notch Quality
+              Work & Services
             </div>
+            <div class="features__text">
+              Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed
+              magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras
+              varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+            </div>
+            <a class="features__link" href="#">
+              More
+            </a>
           </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-3.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
+          <div class="features__item">
+            <div class="features__title features__title--human">
+              Follow Me on Twitter,
+              Facebook & Pinterest
             </div>
-          </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-4.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
+            <div class="features__text">
+              Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed
+              magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras
+              varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
             </div>
-          </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-1.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-2.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-3.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-4.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-1.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-2.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-3.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="works__inner-item">
-          <div class="works__inner-box">
-            <img src="images/slider/item-4.jpg" alt="">
-            <div class="works__inner-link">
-              <a href="#"><img src="images/slider/preview.svg" alt=""></a>
-              <a href="#"><img src="images/slider/link.svg" alt=""></a>
-            </div>
+            <a class="features__link" href="#">
+              More
+            </a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="clients">
-    <div class="container">
-      <div class="clients__inner">
-        <div class="testimonials">
-          <div class="testimonials__title">
-            Testimonials
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut nulla sapien, at aliquam
-            erat. Sed vitae massa tellus. Aliquam commodo aliquam metus, sed iaculis nibh tempus id. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia Curae; Etiam nec nisi in nisl euismod fringilla.
+    </section>
 
-            <span>John Travis, CEO, DomainName.com</span>
-          </p>
-        </div>
-        <div class="clients-logo">
-          <div class="clients-logo__title">
-            Our Clients
+    <section class="works">
+      <div class="container">
+        <div class="works__inner">
+          <div class="works__title works__title--line">
+            Recent Works
           </div>
-          <div class="clients-logo__images">
-            <img src="images/clients/clients-logo.jpg" alt="">
+
+          <div class="works__items">
+
+            <article class="work">
+              <a class="work__link" href="#">
+                <img class="work__image" src="images/works/character.jpg" alt="work-image">
+                <div class="work__textholder">
+                  <div class="work__headline">
+                    Character Design
+                  </div>
+                  <time class="work__date">
+                    June 15, 2012
+                  </time>
+                </div>
+              </a>
+            </article>
+
+            <article class="work">
+              <a class="work__link" href="#">
+                <img class="work__image" src="images/works/brochure.jpg" alt="work-image">
+                <div class="work__textholder">
+                  <div class="work__headline">
+                    Brochure Design
+                  </div>
+                  <time class="work__date">
+                    June 15, 2012
+                  </time>
+                </div>
+              </a>
+            </article>
+
+            <article class="work">
+              <a class="work__link" href="#">
+                <img class="work__image" src="images/works/social.jpg" alt="work-image">
+                <div class="work__textholder">
+                  <div class="work__headline">
+                    Social Media Buttons
+                  </div>
+                  <time class="work__date">
+                    June 15, 2012
+                  </time>
+                </div>
+              </a>
+            </article>
+
+            <article class="work">
+              <a class="work__link" href="#">
+                <img class="work__image" src="images/works/websites.jpg" alt="work-image">
+                <div class="work__textholder">
+                  <div class="work__headline">
+                    10 Amazing Websites
+                  </div>
+                  <time class="work__date">
+                    June 15, 2012
+                  </time>
+                </div>
+              </a>
+            </article>
+
           </div>
         </div>
       </div>
-      <div class="download">
-        <div class="download__text">
-          This is a clean and modern, four column website PSD template. You can code it into a Wordpress
-          website,
-          HTML5 responsive website for your personal or client works. So ahead and download this wonderful PSD
-          template!
-        </div>
-        <div class="download__btn">
-          <a href="#" download="">
-            Download PSD
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer">
+  </main>
+
+  <footer class="footer sidewall">
     <div class="container">
       <div class="footer__inner">
-
-        <div class="footer__items footer__item-content">
-          <div class="footer_items-title ">
-            About us
-          </div>
-          <div class="footer__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed
-            sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros. Ut nec lorem id orci
-            convallis porta. Donec pharetra neque eu velit dictum molestie.
-          </div>
-        </div>
-
-        <div class="footer__items footer__item-list">
-          <div class="footer_items-title">
-            Explore
-          </div>
-          <ul class="footer__list">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About Us</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-          </ul>
-        </div>
-
         <div class="footer__items">
-          <div class="footer_items-title">
-            Browse
+          <div class="footer__item">
+            <div class="footer__title">
+              About Jetro
+            </div>
+            <div class="footer__text">
+              <p class="footer__first-paragraph">
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at
+                tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus
+                disputando.
+              </p>
+              <p>
+                Pro et erant delicata, eu vim essent imperdiet accommodare, dictas
+                deseruisse ius an. Solet everti
+                definitionem id ius, sonet oporteat cu vim.
+              </p>
+            </div>
           </div>
-          <ul class="footer__list">
-            <li>
-              <a href="#">Careers</a>
-            </li>
-            <li>
-              <a href="#">Press & Media</a>
-            </li>
-            <li>
-              <a href="#">Contact Us</a>
-            </li>
-            <li>
-              <a href="#">Terms of Service</a>
-            </li>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer__items footer__items-contact">
-          <div class="footer_items-title">
-            contact us
+          <div class="footer__item footer__item--twitter">
+            <div class="footer__title ">
+              Twitter Widget
+            </div>
+            <div class="footer__text twitter">
+              <p class="twitter__message">
+                <a class="twitter__author" href="#">@pixelmater</a> What an awesome design with great functionality :)
+              </p>
+              <p class="twitter__date">
+                about 1 hour ago
+              </p>
+              <p class="twitter__message">
+                <a class="twitter__author" href="#">@designdude</a> What an awesome design with great functionality :)
+              </p>
+              <p class="twitter__date">
+                about 2 hour ago
+              </p>
+              <p class="twitter__message">
+                Follow
+                <a class="twitter__author" href="#">
+                  @bestpsdfreebies
+                </a>
+              </p>
+            </div>
           </div>
-          <div class="footer__address">
-            <span>BisLite Inc.</span>
-            Always Street 265
-            0X - 125 - Canada
+          <div class="footer__item">
+            <div class="footer__title">
+              Contact Us
+            </div>
+            <div class="footer__text">
+              Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at
+              tritani aperiri.
+            </div>
+            <address class="footer__address">
+              <a class="footer__link footer__link--mail" href="mailto:information@jetro.com">
+                information@jetro.com
+              </a>
+              <a class="footer__link" href="tel:12223334444">
+                1.222.333.4444
+              </a>
+              <ul class="footer__socials socials">
+                <li>
+                  <a class="socials__link" href="#">
+                    <img class="social__img" src="images/socials/facebook.png" alt="facebook">
+                  </a>
+                </li>
+                <li>
+                  <a class="socials__link" href="#">
+                    <img class="social__img" src="images/socials/twitter.png" alt="twitter">
+                  </a>
+                </li>
+                <li>
+                  <a class="socials__link" href="#">
+                    <img class="social__img" src="images/socials/email.png" alt="email">
+                  </a>
+                </li>
+                <li>
+                  <a class="socials__link" href="#">
+                    <img class="social__img" src="images/socials/rss.png" alt="rss">
+                  </a>
+                </li>
+                <li>
+                  <a class="socials__link" href="#">
+                    <img class="social__img" src="images/socials/vimeo.png" alt="vimeo">
+                  </a>
+                </li>
+              </ul>
+            </address>
           </div>
-          <div class="footer__phone">
-            Phone: <a href="tel:9876543210">987-6543-210</a>
-            Fax: 987-6543-210
-          </div>
-        </div>
-
-        <div class="footer__items footer__item-social">
-          <div class="footer_items-title items-title--social">
-            connect with us
-          </div>
-          <ul class="footer__social">
-            <li><a href="#"><img src="images/social/item-1.png" alt=""></a></li>
-            <li><a href="#"><img src="images/social/item-2.png" alt=""></a></li>
-            <li><a href="#"><img src="images/social/item-3.png" alt=""></a></li>
-            <li><a href="#"><img src="images/social/item-4.png" alt=""></a></li>
-            <li><a href="#"><img src="images/social/item-5.png" alt=""></a></li>
-            <li><a href="#"><img src="images/social/item-6.png" alt=""></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer__bottom">
-        <div class="footer__copy">
-          © Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com.
-          Client Logos are copyright and trademark of the respective owners / companies.
-        </div>
-        <div class="footer__logo">
-          <a href="#">
-            <span>Bis</span>Lite
-          </a>
         </div>
       </div>
     </div>
   </footer>
-
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
