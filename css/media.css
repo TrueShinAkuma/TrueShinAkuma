@@ -23,8 +23,14 @@
     margin-left: 0;
     border-top: 1px solid #cfcfcf;
   }
+  .slider {
+    margin-bottom: 10px;
+  }
   .slider__nav {
     display: none;
+  }
+  .features {
+    margin-bottom: 25px;
   }
   .works__items {
     flex-wrap: wrap;
